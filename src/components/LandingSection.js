@@ -21,10 +21,10 @@ const LandingSection = () => (
         <Heading as="h4" size="md">
           {greeting}
         </Heading>
-        <Heading as="h2" size="xs">
+        <Heading as="h2" size="xl">
           {bio1}
         </Heading>
-        <Heading as="h2" size="xs">
+        <Heading as="h2" size="xl">
           {bio2}
         </Heading>
       </VStack>
