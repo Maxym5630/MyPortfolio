@@ -50,7 +50,7 @@ const LandingSection = () => {
         formik.resetForm();
       }
     }
-  }, [response, onOpen]);
+  }, [response]);
 
   return (
     <FullScreenSection
