@@ -2,7 +2,7 @@ import React from "react";
 import { Avatar, Heading, VStack } from "@chakra-ui/react";
 import FullScreenSection from "./FullScreenSection";
 
-const greeting = "Hello, I am Pete!";
+const greeting = "Hello, I am Maksym!";
 const bio1 = "A frontend developer";
 const bio2 = "specialised in React";
 
@@ -21,10 +21,10 @@ const LandingSection = () => (
         <Heading as="h4" size="md">
           {greeting}
         </Heading>
-        <Heading as="h2" size="xs">
+        <Heading as="h2" size="xl">
           {bio1}
         </Heading>
-        <Heading as="h2" size="xs">
+        <Heading as="h2" size="xl">
           {bio2}
         </Heading>
       </VStack>
