@@ -36,7 +36,8 @@ const Header = () => {
   const headerRef = useRef(null);
   const prevScrollPos = useRef(0);
 
-  const handleClick = (anchor) => () => {
+  const handleClick = (anchor) => (e) => {
+    e.preventDefault();
     const id = `${anchor}-section`;
     const element = document.getElementById(id);
     if (element) {
