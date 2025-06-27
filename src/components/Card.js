@@ -11,12 +11,13 @@ const Card = ({ title, description, imageSrc }) => {
       boxShadow="md"
       overflow="hidden"
       alignItems="flex-start"
+      color="black"
     >
       <Image src={imageSrc} alt={title} />
       <VStack p={4} alignItems="flex-start" spacing={2}>
         <Heading size="md">{title}</Heading>
         <Text>{description}</Text>
-        <HStack pt={2}>
+        <HStack pt={2} as="a" href="#">
           <Text fontWeight="bold">See more</Text>
           <FontAwesomeIcon icon={faArrowRight} size="1x" />
         </HStack>
